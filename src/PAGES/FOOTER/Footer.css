@@ -1,0 +1,337 @@
+/* STRAIGHT LINE */
+.straigh-line {
+    background-color:#847E7E;
+    margin: auto;
+    margin-bottom: 40px;
+    max-width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 1px;
+    min-width: 300px;
+  }
+  @media (max-width: 1000px) {
+    .straigh-line {
+      height: 3px;
+    }
+  }
+  /* HIDDEN EIGHTH CONTAINER */
+  .hidden-eighth-container {
+    /* background-color: bisque; */
+    height: 373px;
+    position: relative;
+    max-width: 1000px;
+    min-width: 300px;
+    display: none;
+    margin: auto;
+    /* display: flex; */
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .upper-container {
+    /* background-color: #FDDB16; */
+    max-width: 1000px;
+    height: 280px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .production {
+    display: flex;
+    flex-direction: column;
+    /* background-color: bisque; */
+    height: 100%;
+    width: 180px;
+    gap: 12px;
+  }
+  .production p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: #0A142F;
+    margin-left: 20px;
+  }
+  .production a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #0A142F;
+    opacity: 0.5;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  .about-company {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 128px;
+    height: 100%;
+    gap: 10px;
+  }
+  .about-company p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: #0A142F;
+    margin-left: 20px;
+  }
+  .about-company a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #0A142F;
+    opacity: 0.5;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  .email-address {
+    position: relative;
+    height: 171px;
+    width: 338px;
+    border-radius: 10px;
+    background: rgba(32, 60, 134, 0.05);
+    mix-blend-mode: normal;
+    margin-left: 320px;
+    margin-top: 35px;
+  }
+  .email-address p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: #0A142F;
+    margin-left: 42px;
+    margin-top: 32px;
+  }
+  .email-address-input {
+    background: #FFFFFF;
+    border: 1.5px solid #E7E8F2;
+    border-radius: 10px;
+    width: 248px;
+    height: 50px;
+    margin-left: 40px;
+    margin-top: 15px;
+    padding-left: 16px;
+  }
+  .yellow-square {
+    position: absolute;
+    right: 50px;
+    bottom: 46px;
+    cursor: pointer;
+  }
+  .pointer {
+    z-index: 1;
+    position: absolute;
+    top: 93px;
+    right: 65px;
+    cursor: pointer;
+  }
+  @media (max-width: 1000px) {
+    .hidden-eighth-container {
+      display: block;
+    }
+  }
+  @media (max-width: 980px) {
+    .email-address {
+      margin-left: 200px;
+    }
+  }
+  @media (max-width: 858px) {
+    .email-address {
+      margin-left: 120px;
+    }
+  }
+  @media (max-width: 768px) {
+    .email-address {
+      margin-left: 50px;
+    }
+  }
+  @media (max-width: 704px) {
+    .email-address {
+      width: 210px;
+    }
+    .email-address-input {
+      width: 130px;
+      margin-left: 20px;
+    }
+    .yellow-square {
+      right: 20px;
+      top: 75px;
+    }
+    .pointer {
+      right: 35px;
+    }
+    .email-address p {
+      font-size: 14px;
+      margin-left: 10px;
+    }
+  }
+  @media (max-width: 572px) {
+    .email-address {
+      margin-left: 20px;
+    }
+  }
+  @media (max-width: 544px) {
+    .email-address {
+      margin-left: 0;
+    }
+  }
+  @media (max-width: 525px) {
+    .production {
+      width: 115px;
+    }
+    .production p {
+      font-size: 15px;
+      margin-left: 10px;
+    }
+    .production a {
+      font-size: 10px;
+      margin-left: 10px;
+    }
+    .about-company {
+      width: 100px;
+    }
+    .about-company p {
+      font-size: 15px;
+      margin-left: 0;
+    }
+    .about-company a {
+      font-size: 10px;
+      margin-left: 0;
+    }
+  }
+  @media (max-width: 426px) {
+    .email-address {
+      position: absolute;
+      left: 120px;
+      margin-top: 0;
+      top: 100px;
+    }
+  }
+  @media (max-width: 337px) {
+    .email-address {
+      width: 180px;
+    }
+    .email-address-input {
+      margin-left: 15px;
+    }
+    .yellow-square {
+      right: 10px;
+      top: 103px;
+    } 
+    .pointer {
+      top: 122px;
+      right: 26px;
+    }
+  }
+  .bottom-container {
+    /* background-color: #555252; */
+    max-width: 1000px;
+    height: 115px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 35px;
+  }
+  .number {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    position: absolute;
+    right: 20px;
+    bottom: 47px;
+  }
+  @media (max-width: 768px) {
+    .number {
+      display: none;
+    }
+  }
+  @media (max-width: 334px) {
+    .bottom-container {
+      gap: 10px;
+    }
+  }
+  /* HIDDEN STRAIGHT LINE */
+  .itsline {
+    background-color:#847E7E;
+    margin: auto;
+    margin-top: 30px;
+    max-width: 1170px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 1px;
+    min-width: 300px;
+    display: none;
+  }
+  @media (max-width: 1000px) {
+     .itsline {
+       display: block;
+       margin-bottom: 20px;
+     }
+  }
+  /* FOOTER */
+  .footer {
+    /* background-color: bisque; */
+    height: 188px;
+    max-width: 1440px;
+    min-width: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .two-columns {
+    margin-bottom: 8px;
+    margin-left: 5px;
+  }
+  .right-footer {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    cursor: pointer;
+  }
+  .social-media {
+    width: 35px;
+  }
+  .centerrr {
+    margin-top: 116px;
+  }
+  @media (max-width: 475px) {
+    .left-footer {
+      position: absolute;
+    }
+  }
+  @media (max-width: 319px) {
+    .right-footer {
+      gap: 5px;
+    }
+  }
+  /* THE END */
+  .pravoe a {
+    z-index: 1;
+  }
+  .bitch {
+    cursor: pointer;
+  }
+  .left-footer img {
+    cursor: pointer;
+  }
+  .two-columns {
+    cursor: pointer;
+  }
+
+  @media (max-width: 708px) {
+    .email-address input {
+      font-size: 11px;
+    }
+  }

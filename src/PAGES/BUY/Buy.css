@@ -1,0 +1,405 @@
+.first-sectioner {
+    max-width: 1440px;
+    min-width: 300px;
+    height: 180px;
+    margin: auto;
+    display: flex;
+    position: relative;
+    gap: 100px;
+    justify-content: center;
+  }
+  
+  .Ri-part {
+    max-width: 1440px;
+    min-width: 300px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin: auto;
+  }
+  
+  .Li-part {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    gap: 100px;
+    max-width: 1440px;
+    min-width: 300px;
+  }
+  
+  
+  .counterer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .counterer form {
+      display: flex;
+      gap: 22px;
+      z-index: 2;
+      transform: translateX(15px);
+  }
+  
+  .counterer form input {
+      cursor: pointer;
+      background: none;
+      border-style: none;
+      font-family: 'Montserrat';
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 29px;
+      color: #000000;
+  }
+  
+  .counterer form .counts {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 29px;
+      color: #000000;
+      opacity: 0.5;
+  }
+  
+  .counterer .squareer {
+      z-index: 1;
+      position: absolute;
+      width: 119px;
+      height: 48px;
+      background: #FFFFFF;
+      border: 1px solid #847E7E;
+      border-radius: 10px;
+  }
+  
+  .sizeser {
+    display: flex;
+    justify-content: end;
+    cursor: pointer;
+  }
+  
+  .Caps-sizeer {
+    position: absolute;
+  }
+  
+  .Caps-sizeer p {
+    position: relative;
+    right: 26px;
+    top: 10px;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #847E7E;
+  }
+  
+  .squareser .squareer {
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    width: 70px;
+    height: 48px;
+  }
+  
+  .squareser #threeer {
+    border: 1px solid #000000;
+  }
+  
+  .Caps-sizeer .twoer {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: #000000;
+  }
+  
+  .Caps-sizeer {
+    margin: auto;
+    display: flex;
+  }
+  
+  
+  .cap-nameer h3 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+  }
+  
+  .cap-nameer p {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: #000000;
+    font-size: 17px;
+    line-height: 22px;
+    text-transform: uppercase;
+  }
+  
+  
+  .prais b {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FDDB16;
+  }
+  
+  .praises {
+    transform: translate(-160px, 40px);
+  }
+  .praises b {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 44px;
+    color: #FDDB16;
+    display: none;
+  }
+  
+  .Carter hr {
+    margin: auto;
+    height: 0px;
+    border: 2px solid #847E7E;
+    max-width: 1440px;
+    min-width: 300px;
+  }
+  
+  
+  
+  @media (max-width: 1241px) {
+    .Li-part {
+      gap: 120px;
+    }
+  }
+  @media (max-width: 1170px) {
+    .Li-part {
+      gap: 80px;
+    }
+    .prais b {
+      font-size: 30px;
+    }
+    .Ri-part {
+      gap: 40px;
+    }
+    .cap-nameer h3 {
+      font-size: 22px;
+    }
+    .cap-nameer p {
+      font-size: 11px;
+      width: 175px;
+    }
+  }
+  @media (max-width: 1000px) {
+    .Ri-part {
+      gap: 10px;
+    }
+    .Li-part {
+      gap: 60px;
+    }
+    .cap-nameer p {
+      font-size: 12px;
+      margin-top: -5px;
+    }
+    .cap-nameer h3 {
+      font-size: 19px;
+    }
+    .prais b {
+      font-size: 25px;
+    }
+    .squareser .squareer {
+      width: 50px;
+      height: 42px;
+    }
+    .Caps-sizeer p {
+      font-size: 20px;
+      margin: 0px -7px;
+    }
+    .first-sectioner {
+      gap: 60px;
+    }
+  }
+  @media (max-width: 953px) {
+    .buy-button {
+      margin-left: 70px;
+      position: relative;
+      bottom: 30px;
+    }
+    
+  }
+  @media (max-width: 780px) {
+    .first-sectioner {
+      gap: 20px;
+    }
+    .Li-part {
+      gap: 45px;
+    }
+    .Ri-part {
+      gap: 0;
+    }
+    .caper {
+      width: 114px;
+      height: 79px; 
+      margin-right: -20px;
+    }
+    .cap-nameer {
+      margin-right: -20px;
+    }
+  }
+  @media (max-width: 690px) {
+    .first-sectioner {
+      margin-left: 100px;
+      gap: 50px;
+    }
+    .prais b {
+      display: none;
+    }
+    .praises b {
+      display: block;
+    }
+    .Ri-part {
+      width: 10%;
+    }
+  }
+  @media (max-width: 630px) {
+    .first-sectioner {
+      gap: 25px;
+      margin-left: 120px;
+    }
+    .counterer .squareer {
+      width: 90px;
+    }
+  
+    .counterer form {
+      gap: 18px;
+  }
+  
+  .counterer form input {
+      font-size: 22px;
+  }
+  
+  .counterer form .counts {
+      font-size: 22px;
+  }
+  }
+  
+  /* Second section */
+  
+  .second-sectioner {
+    display: flex;
+    gap: 420px;
+    height: 300px;
+    margin: 50px auto;
+    max-width: 1440px;
+    min-width: 300px;
+  }
+  
+  .register {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    max-width: 1440px;
+    min-width: 300px;
+  }
+  
+  .register .inputs input {
+    width: 400px;
+    height: 51px;
+    border: 1px solid #C4C4C4;
+    border-radius: 15px;
+    padding: 20px;
+  }
+  
+  .register .inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+  }
+  
+  .buy {
+    display: flex;
+    margin: 253px auto;
+  }
+  
+  .buy-button {
+    width: 450px;
+    height: 80px;
+    background: #FDDB16;
+    border-radius: 15px;
+    border-style: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 29px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .buy-button:hover {
+    background: linear-gradient(45deg, #ffbb00, #ddff00);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .register {
+      margin-left: 70px;
+  }
+  
+  @media (max-width: 1241px) {
+    .buy-button {
+      width: 350px;
+      height: 70px;
+    }
+  }
+  @media (max-width: 1140px) {
+    .second-sectioner {
+      gap: 200px;
+    }
+  }
+  @media (max-width: 1080px) {
+    .second-sectioner {
+      gap: 50px;
+    }
+    .buy-button {
+      width: 250px;
+      height: 60px;
+    }
+    .buy-button p a {
+      font-size: 20px;
+    }
+  }
+  @media (max-width: 950px) {
+    .second-sectioner {
+      margin-left: 30px;
+      flex-direction: column;
+    }
+    .buy {
+      margin: 50px 0px;
+    }
+    .register .inputs input {
+      width: 300px;
+      height: 51px;
+    }
+  }
+  @media (max-width: 350px) {
+    .register .inputs input {
+      width: 300px;
+      height: 51px;
+    }
+  }
+
+  input {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #555252;
+  }
+  h2 {
+    font-family: 'Montserrat';
+  }
+  
